@@ -8,7 +8,7 @@ import {
   updateBoard,
   // singleBoard,
   // updateBoard,
-} from "../controllers/BoardController.js";
+} from "../controllers/boardController.js";
 import { isAuth } from "../middlewares/IsAuth.js";
 
 const router = express.Router();
