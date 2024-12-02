@@ -4,7 +4,7 @@ import {
   addList,
   deleteList,
   updateList,
-} from "../controllers/ListController.js";
+} from "../controllers/listController.js";
 import { isAuth } from "../middlewares/IsAuth.js";
 
 const router = express.Router();
